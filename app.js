@@ -3,9 +3,9 @@ GIT COMMANDS
     git init
     git add . -> escrever exatamente assim (com ponto) adiciona todos os arquivos da pasta
     git commit -m "first commit"
-    git branch -M main
-    git remote add origin git@github.com:luccatrevisan/numero-secreto.git
-    git push -u origin main
+    git branch -M main -> "main" é o apelido que escolho para o codigo principal
+    git remote add origin git@github.com:luccatrevisan/numero-secreto.git -> "origin" é o apelido que escolho para o repositório
+    git push -u origin main -<
 */
 
 let listaDeNumerosSorteados = []; //tem que estar antes da chamada de gerarNumeroAleatorio() porque o JS executa em ordem
