@@ -6,9 +6,10 @@ GIT COMMANDS
     git branch -M main -> "main" é o apelido que escolho para o codigo principal
     git remote add origin git@github.com:luccatrevisan/numero-secreto.git -> "origin" é o apelido que escolho para o repositório
     git push -u origin main
-    git revert -> reverter um commit feito, como excluir uma imagem do html e colocar ela de volta. conta como 2 commits
-    git reset #id -> é o jeito pra excluir um commit do log. o id precisa ser o commit anterior ao que eu quero excluir. 
+    git revert #id -> reverter um commit feito, como excluir uma imagem do html e colocar ela de volta. conta como 2 commits
+    git reset --hard #id -> é o jeito pra excluir um commit do log. o id precisa ser o commit anterior ao que eu quero excluir. 
             OBS.: o comando funciona como se você estivesse pedindo pra resetar o log até o id de sua escolha.
+                OBS2.: reset exige parâmetros como --hard no exemplo acima
 */
 
 let listaDeNumerosSorteados = []; //tem que estar antes da chamada de gerarNumeroAleatorio() porque o JS executa em ordem
